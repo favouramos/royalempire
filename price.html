@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Empire</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('a.jpg') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .logo {
+            margin: 20px 0;
+        }
+
+        .logo img {
+            max-width: 100px;
+            border-radius: 50%;
+        }
+
+        .intro {
+            font-size: 1.2rem;
+            margin: 15px 0;
+            color: #ffeb3b;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 10px 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #ffeb3b; /* Bright yellow for visibility */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+        }
+
+        .address {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            color: #ffffff;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+
+        .address img {
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .pricing {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            font-size: 1.2rem;
+        }
+
+        .pricing div {
+            background: rgba(255, 255, 255, 0.3);
+            padding: 10px;
+            border-radius: 10px;
+            color: #000;
+            font-weight: bold;
+            text-shadow: none;
+        }
+
+        @media (min-width: 768px) {
+            .pricing {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo2.png" alt="Company Logo">
+        </div>
+        <h1>Royal Empire</h1>
+        <p class="intro">Learn the art of sewing and fashion design with Royal Empire. Transform your creativity into reality!</p>
+        <p class="address">
+            <img src="loction.png" alt="Location Icon" width="20"> No 5 Atakpo Street, Magbuoba, off NTA Road<br>
+            <img src="phone.png" alt="Phone Icon" width="20"> Phone: 09061783575
+        </p>
+        <div class="pricing">
+            <div>1 Year = 150K</div>
+            <div>6 Months = 90K</div>
+            <div>3 Months = 70K</div>
+        </div>
+    </div>
+</body>
+</html>
